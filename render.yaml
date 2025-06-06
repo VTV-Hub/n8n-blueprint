@@ -19,4 +19,4 @@ git init:
 git add render.yaml:
 git commit -m "Add n8n blueprint deploy":
 git remote add origin https://github.com/VTV-Hub/n8n-blueprint.git:
-git push -u origin main
+git push -u origin main:
