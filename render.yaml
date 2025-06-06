@@ -13,3 +13,4 @@ services:
         value: supersecure123
       - key: N8N_PORT
         value: 5678
+        
