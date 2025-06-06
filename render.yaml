@@ -13,5 +13,3 @@ services:
         value: supersecure123
       - key: N8N_PORT
         value: 5678
-      - key: WEBHOOK_TUNNEL_URL
-        value: https://n8n-self-host-workshop-mqgj.onrender.com
