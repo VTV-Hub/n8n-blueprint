@@ -6,12 +6,3 @@ services:
     plan: Starter
     image:
       url: n8n/n8n:1.103.1
-    envVars:
-      - key: N8N_BASIC_AUTH_USER
-        value: admin
-      - key: N8N_BASIC_AUTH_PASSWORD
-        value: supersecure123
-      - key: N8N_PORT
-        value: 5678
-      - key: WEBHOOK_TUNNEL_URL
-        value: https://n8n-self-host-workshop-mqgj.onrender.com
