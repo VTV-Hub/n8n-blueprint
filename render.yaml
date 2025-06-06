@@ -3,7 +3,7 @@ services:
     name: n8n-blueprint
     env: docker
     region: oregon
-    plan: free
+    plan: starter
     image:
       url: n8n/n8n:1.103.1
     envVars:
