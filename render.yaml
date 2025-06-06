@@ -15,6 +15,7 @@ services:
         value: 5678
       - key: WEBHOOK_TUNNEL_URL
         value: https://n8n-self-host-workshop-mqgj.onrender.com
+git init
 git add render.yaml
 git commit -m "Add n8n blueprint deploy"
 git remote add origin https://github.com/VTV-Hub/n8n-blueprint.git
