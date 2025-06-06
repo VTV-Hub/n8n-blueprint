@@ -1,0 +1,22 @@
+services:
+  - type: web
+    name: n8n-blueprint
+    env: docker
+    region: oregon
+    plan: free
+    image:
+      url: n8n/n8n:1.103.1
+    envVars:
+      - key: N8N_BASIC_AUTH_USER
+        value: admin
+      - key: N8N_BASIC_AUTH_PASSWORD
+        value: supersecure123
+      - key: N8N_PORT
+        value: 5678
+      - key: WEBHOOK_TUNNEL_URL
+        value: https://n8n-self-host-workshop-mqgj.onrender.com
+        git init
+git add render.yaml
+git commit -m "Add n8n blueprint deploy"
+git remote add origin https://github.com/VTV-Hub/n8n-blueprint.git
+git push -u origin main
